@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/src/images/logoazul.png"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../css/footer.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="F404 Store: Adquira agora mesmo um bot totalmente exclusivo ao seu servidor de Minecraft, FiveM ou Comunidade com o preço mais barato do Brasil!"
+    />
+    <meta name="author" content="F404" />
+    <meta property="og:image" content="/src/images/logoazul.png" />
+    <meta property="og:url" content="https://f404.store" />
+    <meta name="theme-color" content="#37ebeb" />
+    <title>F404 Store - Comandos FiveM</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fe5629e38b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+        >
+          <img
+            src="/src/images/logoroxa_arredondada.png"
+            width="50"
+            height="50"
+          />
+        </a>
+        <nav
+          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a href="/" class="mr-5 hover:text-white">Início</a>
+          <a href="/plans" class="mr-5 hover:text-white">Planos</a>
+          <a href="#" class="mr-5 hover:text-white">Comandos</a>
+          <a href="/terms" class="mr-5 hover:text-white">Termos</a>
+          <a href="/team" class="mr-5 hover:text-white">Time de Águias</a>
+          <a href="/discord" class="mr-5 hover:text-white">Suporte</a>
+          <a href="https://dashboard.f404.store" class="mr-5 hover:text-white"
+            >Dashboard</a
+          >
+        </nav>
+      </div>
+    </header>
+    <hr />
+    <section class="text-gray-400 body-font bg-gray-900">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <div
+            class="flex flex-wrap w-full mb-20 flex-col items-center text-center"
+          >
+            <h1
+              class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white"
+            >
+              Comandos Planos
+            </h1>
+            <!-- Anuncios -->
+            <ins
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-5600675743247583"
+              data-ad-slot="3253669594"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <br />
+            <div class="flex justify-left">
+              <button
+                class="ml-4 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              >
+                <a href="/commands">Bot Minecraft</a>
+              </button>
+              <button
+                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                <a href="#">Bot FiveM</a>
+              </button>
+            </div>
+            <br />
+            <div class="flex justify-center">
+              <button
+                class="ml-4 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              >
+                <a href="/commands/comunidade">Bot Comunidade</a>
+              </button>
+            </div>
+            <br />
+            <p class="lg:w-1/2 w-full leading-relaxed text-opacity-80">
+              Você está visualizando os comandos do plano:
+              <strong>Bot FiveM</strong>.<br />
+              Última atualização destes comandos no site:
+              <strong>19/01/2022</strong>.<br /><br />
+              Total de comandos neste plano: <strong>31</strong>.
+            </p>
+            <div id="all">
+              <div class="flex flex-wrap -m-4" id="settings-commands">
+                <h1
+                  class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-center w-full mx-auto"
+                >
+                  <br />
+                  Discord
+                </h1>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Ajuda
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Veja a lista de comandos e sua descrição.
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Botinfo
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Veja as informações do bot.
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Ip
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Veja os status do servidor.
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Loja
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Veja o site/loja do servidor.
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Ping
+                    </h2>
+                    <p class="leading-relaxed text-base">Veja o ping do bot.</p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Serverbanner
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Veja o banner do servidor.
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Serverinfo
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Veja as informações do servidor do discord.
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Sugerir
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Veja o site/loja do servidor.
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Userinfo
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Veja as informações de um usuário.
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                  <div
+                    class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                  >
+                    <h2
+                      class="text-lg text-indigo-400 font-medium title-font mb-2"
+                    >
+                      Whitelist
+                    </h2>
+                    <p class="leading-relaxed text-base">
+                      Faça o formulário de whitelist.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="all">
+                <div class="flex flex-wrap -m-4" id="settings-commands">
+                  <h1
+                    class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-center w-full mx-auto"
+                  >
+                    <br />
+                    Moderação
+                  </h1>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Anunciar
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Anuncie algo para o servidor em um canal.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Ban
+                      </h2>
+                      <p class="leading-relaxed text-base">Bane um usúario.</p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Clear
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Apague um total de mensagens que deseja.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Embed
+                      </h2>
+                      <p class="leading-relaxed text-base">Faça uma embed.</p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Entrada
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Configure o sistema de entrada.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Kick
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Expulse um usúario.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Lock
+                      </h2>
+                      <p class="leading-relaxed text-base">Tranque um canal.</p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Say
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Envie uma mensagem.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Unlock
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Destranque um canal que esteja trancado.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex flex-wrap -m-4" id="settings-commands">
+                  <h1
+                    class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-center w-full mx-auto"
+                  >
+                    <br />
+                    Configuração
+                  </h1>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Autorole
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Sete um cargo automático para membros novos.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Avatarbot
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Defina um avatar para o bot.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Config-invite
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Habilite ou desabilite o sistema de bloquear convites.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Config-loja
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Configure a loja/site do servidor.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Config-sugerir
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Configure o canal de sugestões.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Nomebot
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Mude o nome do bot.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Saida
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Configure o sistema de saída.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Setconfig
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Configure o sistema de whitelist.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Setprefix
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Altere meu prefixo.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Setwl
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Configure as perguntas da whitelist.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div
+                      class="border border-gray-700 border-opacity-75 p-6 rounded-lg"
+                    >
+                      <h2
+                        class="text-lg text-indigo-400 font-medium title-font mb-2"
+                      >
+                        Statusbot
+                      </h2>
+                      <p class="leading-relaxed text-base">
+                        Defina um status para o bot.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <footer class="text-gray-400 bg-gray-900 body-font">
+      <footer class="footer-area">
+        <div class="container">
+            <div class="">
+              <div class="site-logo text-center py-4">
+                <center>
+                  <a href="https://onceprojects.ga"><img src="../../src/images/madeOnceProjects.png" width="70" height="70" alt="Once Projects"></a>
+                </center>
+               </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Once Projects</h5>
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        Made <a href="https://onceprojects.ga"><span style="color: var(--primary-color);">Once Projects</span></a> © - Todos os direitos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer-area">
+      <div class="container">
+          <div class="">
+            <div class="site-logo text-center py-4">
+              <center>
+                <a href="#"><img src="../../src/images/logoroxa_arredondada.png" width="50" height="50" alt="F404 Store"></a>
+              </center>
+             </div>
+              <div class="social text-center">
+                  <h5 class="text-uppercase">F404 Store</h5>
+              </div>
+              <div class="copyrights text-center">
+                  <p class="para">
+                      Sub-Gestão de Once Projects.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <noscript>
+      F404 Store: Por favor, habilite o JavaScript em seu navegador, para
+      visualizar esta página apropriadamente!
+    </noscript>
+  </body>
+</html>
